@@ -1,5 +1,5 @@
 {
-  "name": "crimson-base-cd31",
+  "name": "spellol-daily-worker",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,10 @@
     "start": "wrangler dev"
   },
   "devDependencies": {
-    "wrangler": "^3.0.0"
+    "wrangler": "^3.33.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.8",
+    "dotenv": "^16.4.5"
   }
 }
