@@ -1,0 +1,9 @@
+name = "crimson-base-cd31"
+main = "src/index.js"
+compatibility_date = "2024-03-12"
+
+# Cron Triggers
+# Docs: https://developers.cloudflare.com/workers/platform/triggers/cron-triggers/
+# Configuration: https://developers.cloudflare.com/workers/wrangler/configuration/#triggers
+[triggers]
+crons = ["* * * * *"] # * * * * * = run every minute
